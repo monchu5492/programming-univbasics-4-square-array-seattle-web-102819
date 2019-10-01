@@ -4,6 +4,6 @@ def square_array(array)
   while array[counter] do
     new_array.push(Math.sqrt(array[counter]))
     counter += 1
-    return new_array
   end
+  return new_array
 end
